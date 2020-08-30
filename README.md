@@ -1,4 +1,4 @@
-# DockerNotessudo yum update
+# Docker Notes
 
 sudo yum update (Get package insatller) 
 
