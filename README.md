@@ -53,6 +53,13 @@ Run Ubuntu container
  docker container start/stop/restart ubuntu20 (start conatiner)
  
  docker exec -it ubuntu20 bash (Enterr inti the container shell)
+ 
+ Elastic search:
+ 
+ docker pull elasticsearch:7.9.1
+ 
+ docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:7.9.1  (To have elastic search conatiner)
+
 
 
    
